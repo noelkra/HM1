@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-x_lin = np.linspace(0, 100, 400)
+x_lin = np.linspace(1e-8, 100, 400)
 x_pos = np.logspace(-3, 2, 400)
 
 def fb(x):
